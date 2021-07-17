@@ -19,6 +19,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
+import { NotFoundComponent } from './sharedComponent/not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { MatIconModule } from '@angular/material/icon';
     CadastrosComponent,
     LoginComponent,
     RecuperarSenhaComponent,
-    CadastrarUsuarioComponent
+    CadastrarUsuarioComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,

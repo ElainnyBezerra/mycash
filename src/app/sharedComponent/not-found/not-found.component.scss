@@ -1,0 +1,60 @@
+:host{
+    display:flex;
+    background: #1b38bd;
+    background: -webkit-radial-gradient(circle, #eeaeca, #94bbe9);
+    background: radial-gradient(circle, #eeaeca, #94bbe9);
+  }
+
+  .example-card {
+    background: #1b38bd;
+    background: -webkit-radial-gradient(circle, #eeaeca, #94bbe9);
+    background: radial-gradient(circle, #eeaeca, #94bbe9);
+    width: 100vw;
+  }
+
+    .logo-span {
+      display:flex;
+      justify-content: center;
+      margin-bottom: 20px;
+      
+      img {
+        justify-content: center;
+        width: 500px;
+      }
+    }
+
+      .msg {
+        width: 100%;
+        text-align: center;
+
+        h1 {
+          font-style: italic;
+          font-family: fantasy;
+          font-size: xx-large;
+          font-weight: bold;
+        }
+      }
+
+      .erro{
+        width: 100%;
+        text-align: center;          
+      }
+      
+      .container-button {
+        display: flex;
+        justify-content: center;
+          button{
+            color: #000; 
+            background-color: #eeaeca;            
+          }
+          
+          
+      }
+  
+    .section-container {
+      width: 100vw;
+      height: 100vh;
+      display: Flex;
+      justify-content: center;
+      align-items: center;
+    }

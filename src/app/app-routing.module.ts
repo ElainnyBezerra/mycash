@@ -9,6 +9,7 @@ import { CadastrarUsuarioComponent } from './formulario/cadastrar-usuario/cadast
 import { RecuperarSenhaComponent } from './formulario/recuperar-senha/recuperar-senha.component';
 import { AuthGuard } from './service/auth.guard';
 import { CadastrosComponent } from './formulario/cadastros/cadastros.component';
+import { NotFoundComponent } from './sharedComponent/not-found/not-found.component';
 
 const routes: Routes = [
   {path: '', redirectTo: '/login', pathMatch: 'full'},
@@ -19,10 +20,10 @@ const routes: Routes = [
   {path: 'cadastrar-usuario', component: CadastrarUsuarioComponent},
   {path: 'recuperar-senha', component: RecuperarSenhaComponent},
   {path: 'cadastros', component: CadastrosComponent, canActivate: [AuthGuard]},
-
+  {path: '**', component: NotFoundComponent},
 
 ];
-
+  
 
 @NgModule({
   declarations: [],
